@@ -1,0 +1,9 @@
+version: '2'
+services:
+  pwn_simplywild:
+    container_name: pwn-simplywild
+    image: pwn-simplywild:0.1
+    logging:
+      driver: "none"
+    ports:
+      - "8891:8891"

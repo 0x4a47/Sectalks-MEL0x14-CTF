@@ -1,0 +1,9 @@
+version: '2'
+services:
+  pwn_babyecho:
+    container_name: pwn-babyecho
+    image: pwn-babyecho:0.1
+    logging:
+      driver: "none"
+    ports:
+      - "8888:8888"

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  pwn_nopnopnop:
+    container_name: pwn-nopnopnop
+    image: pwn-nopnopnop:0.1
+    logging:
+      driver: "none"
+    ports:
+      - "8889:8889"

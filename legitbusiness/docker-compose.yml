@@ -1,0 +1,9 @@
+version: '2'
+services:
+  pwn_legitbusiness:
+    container_name: pwn-legitbusiness
+    image: pwn-legitbusiness:0.1
+    logging:
+      driver: "none"
+    ports:
+      - "8890:8890"

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  pwn_stackme:
+    container_name: pwn-stackme
+    image: pwn-stackme:0.1
+    logging:
+      driver: "none"
+    ports:
+      - "8887:8887"
